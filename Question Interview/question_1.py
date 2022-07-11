@@ -12,12 +12,3 @@ for num in range (100,201):
         else:
             amount = amount + 1
 print(amount)
-# amount = 0 
-# prime = True
-# for num in range (100,201):
-#     for i in range (2, 100):
-#         if (num%i==0):
-#             break
-#         else:
-#             amount = amount + 1
-# print(amount)
