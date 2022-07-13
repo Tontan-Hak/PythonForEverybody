@@ -9,7 +9,6 @@ while initial_list:
     for i in initial_list:
         if maximum < i: 
             maximum = i 
-
     new_list.append(maximum)
     initial_list.remove(maximum)
 print(new_list)
