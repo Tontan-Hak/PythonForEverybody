@@ -17,3 +17,4 @@
 15. Given a string as your imput, delete any reoccurring character, and return the new string.
 16. Write a program to reverse an integer number
 17. Write a program to check whether an integer number is a Palindrome or not
+18. Write a program to check number reepresentation is in binary
