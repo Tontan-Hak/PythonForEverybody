@@ -1,0 +1,43 @@
+// {
+//     // Use IntelliSense to learn about possible attributes.
+//     // Hover to view descriptions of existing attributes.
+//     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+//     "version": "0.2.0",
+//     "configurations": [
+//         {
+//             "name": "Python: Current File",
+//             "type": "python",
+//             "request": "launch",
+//             "program": "${file}",
+//             "console": "integratedTerminal",
+//             "justMyCode": true
+//         }
+//     ]
+// }
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Current File",
+            "type": "python",
+            "request": "launch",
+            //udp_local
+            "program": "C:/Users/teacher/HDSD/PythonInterview_HDSD/Network Programming",
+            "console": "integratedTerminal",
+            //"args":["client"],
+            "args":["server"],
+            //----------------------------------------------------------------------------------------------
+            //udp_remote
+            //"program": "C:/src/python/NP-teacher/WEEK02/udp_remote.py",
+            //"console": "integratedTerminal",
+            //"args":["client", "D20072012"],
+            //"args":["server", "DG0012012"],
+
+
+            "justMyCode": true
+        }
+    ]
+}
