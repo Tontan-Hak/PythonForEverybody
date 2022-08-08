@@ -8,11 +8,11 @@ choicekey = int(input("How many keychains will you be purchasing? If not purchas
 choicetshirt = int(input("How many t-shirts will you be purchasing? If not purchasing t-shirts, enter 0. "))
 choicebottle = int(input("How many t-shirts will you be purchasing? If not purchasing water bottles, enter 0. "))
 
-if choicekey > 9:
+if choicekey > 10:
     online_store['keychain'] = 0.65
-if choicetshirt > 9:
+if choicetshirt > 10:
     online_store['tshirt'] = 8.00
-if choicebottle > 9:
+if choicebottle > 10:
     online_store['bottle'] = 8.75
 
 keychain = online_store['keychain']
