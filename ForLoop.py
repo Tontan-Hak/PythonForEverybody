@@ -29,3 +29,11 @@ for line in range(1, size+1):
     print(line)
     spaces = spaces  - 1	# for next line
     stars = stars + 2
+
+# code 
+size = 5
+for n in range(1, size+1):
+    spaces = size - n
+    stars = 2*n - 1
+    line = "." * spaces + "*" * stars
+    print(line)
