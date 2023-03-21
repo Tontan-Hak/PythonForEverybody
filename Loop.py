@@ -16,3 +16,10 @@ while keepLooping:
     print("Hello")
     userResponse = input("Continue?(y/n): ")
     keepLooping = userResponse == "y"
+
+# code
+while True: 
+    print("Hello")
+    userResponse = input("Continue?(y/n): ")
+    if userResponse != "y":
+        break
