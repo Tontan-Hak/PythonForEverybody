@@ -19,3 +19,13 @@ start = 1
 end = 16
 for n in range(start, end+1):
 	print(n, 2**n)
+        
+# code 
+size = 5
+spaces = size-1 		# for line 1
+stars = 1			# for line 1
+for line in range(1, size+1):
+    line = "." * spaces + "*" * stars
+    print(line)
+    spaces = spaces  - 1	# for next line
+    stars = stars + 2
