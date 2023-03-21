@@ -14,3 +14,8 @@ for m in marks:
         count = count + 1
 passRate = count / len(marks)
 print("The pass rate is", round(passRate * 100), "%")
+# 
+start = 1
+end = 16
+for n in range(start, end+1):
+	print(n, 2**n)
