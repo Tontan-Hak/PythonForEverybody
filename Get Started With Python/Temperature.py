@@ -8,6 +8,7 @@ def estimate(f):
     c = round(c,2)
     return c
 #main
-for f in range(20, 120, 4):
-    print(f, convert(f), estimate(f))
-    
+def main():
+    for f in range(20, 120, 4):
+        print(f, convert(f), estimate(f))
+main()   
