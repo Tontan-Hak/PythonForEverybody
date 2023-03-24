@@ -10,3 +10,4 @@ def estimate(f):
 #main
 for f in range(20, 120, 4):
     print(f, convert(f), estimate(f))
+    
