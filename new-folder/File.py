@@ -1,7 +1,8 @@
 # Open a file
-fhand = open('mbox-short.txt')
+fname = input('Enter the file name:  ')
+fhand = open(fname)
+count = 0
 for line in fhand:
-    line = line.rstrip()
-    if not line.startswith('From:') :
-        continue
-    print(line)
+    if line.startswith('Subject:') :
+        count = count + 1
+print('There were', count, 'subject lines in', fname)
