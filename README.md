@@ -1,6 +1,6 @@
 # PythonInterview_HDSD
 1. Write a python program to print Prime Numbers between 2 numbers  
-    1a. Write python program to print how many Prime numbers between 2 numbers
+    - Write python program to print how many Prime numbers between 2 numbers
 2.  Write a sort function to sort the elements in a list 
 3. Write a sorting function without using the list.sort function 
 4. Write a python program to print a Fibonacci Series
