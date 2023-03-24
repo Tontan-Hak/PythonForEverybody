@@ -1,0 +1,107 @@
+Chapter 6
+System Engineering
+CHAPTER OVERVIEW AND COMMENTS
+
+This intent of this chapter is to provide a brief introduction to the system engineering process. The overall structure of computer-based systems is discussed and a brief overview of the system engineering hierarchy is presented.  Business process engineering (BPR) and product engineering are discussed in overview fashion.
+Note: Some reviewers of this edition argued that a discussion of system engineering is beyond the scope of a software engineering text. 
+
+S/W Eng occurs as a consequence of a process called System engineering.  System Engineering focuses on analyzing, designing, and organizing those elements into a system that can be a product, a service, or a technology for the transformation of information.
+
+6.1 Computer-Based Systems	
+
+This section introduces the systems view of engineering (all complex systems can be viewed as being composed of cooperating subsystems).  The elements of computer-based systems are defined as software, hardware, people, database, documentation, and procedures.
+
+A computer-based system makes use of a variety of system elements.
+
+Software:  programs, data structures, and related work products.
+Hardware: electronic devices that provide computing capabilities.
+People: Users and operators of hardware and software.
+Database: A large, organized collection of information that is accessed via S/w and persists over time.
+Documentation:  manuals, on-line help files.
+Procedures: the steps that define the specific use of each system element.
+
+One complicating characteristic of computer-based system is that the elements constituting one system may also represent one macro element of a still large system.
+The micro-element is a computer-based system that is one part of a larger computer based system.
+6.2 The System Engineering Hierarchy
+
+The key to system engineering is a clear understanding of context. For software development this means creating a "world view" and progressively narrowing its focus until all technical detail is known.
+
+In software engineering there is rarely one right way of doing something. Instead designers must consider the tradeoffs present in the feasible solutions and select one that seems advantageous for the current problem. This section lists several factors that need to be examined by software engineers when evaluating alternative solutions (assumptions, simplifications, limitations, constraints, and preferences). 
+Regardless of its domain of focus, system eng. Encompasses a collection of top-down and bottom-up methods to navigate the hierarchy illustrated below:
+
+The system eng. Process usually begins with a “world view.”  The entire business or product domain is examined to ensure that the proper business or technology context can be established.
+
+The world view is refined to focus more fully on a specific domain of interest.
+
+Within a specific domain, the need for targeted system elements (data, S/W, H/W, and people) is analyzed.
+
+Finally, the analysis, design, and construction of a targeted system element are initiated.
+
+6.2.1 System Modeling
+
+System modeling is an important element of the system eng. Process.  The Engineer creates models that:
+    1. Define the processes that serve the needs of the view under consideration.
+    2. Represent the behavior of the processes and the assumptions on which the behavior is based.
+    3. Explicitly define both exogenous and endogenous input to the model.
+    4. Exogenous inputs link one constituent of a given view with other constituents at the same level of other levels; endogenous input links individual components of a constituent at a particular view.
+    5. Represent all linkages (including output) that will enable the engineer to better understand the view.
+
+To construct a system model, the engineers should consider a number of restraining factors: “Read examples of each in book page# 127.”
+    1. Assumptions that reduce the number of possible permutations and variations, thus enabling a model reflect the problem in a reasonable manner.
+    2. Simplifications that enable the model to be created in a timely manner.
+    3. Limitations that help to bound the system.
+    4. Constraints that will guide the manner in which the model is created and the approach taken when the model is implemented. 
+    5. Preferences that indicate the preferred architecture for all data, functions, and technology.
+
+6.3 Business Process Engineering: An Overview
+
+The goal of Business Process Engineering (BPE) is to define architectures that will enable a business to use information effectively.
+BPE is one process for creating an overall plan for implementing the computing architecture.
+Three different architectures must be analyzed and designed within the context of business objectives and goals:
+    • Data architecture
+    • Application architecture
+    • Technology infrastructure
+
+The data architecture provides a framework for the information needs of a business.  The building blocks of the architecture are the data objects that are used by the business.
+Once a set of data objects is defined, their relationships are identified.  A relationship indicates how objects are connected to one another.
+
+The application architecture encompasses those elements of a system that transform objects within the data architecture for some business purpose.
+
+The technology infrastructure provides the foundation for the data and application architectures.  The infrastructure encompasses the h/w and s/w that are used to support the applications and data.
+
+6.4 Product Engineering: An Overview
+Emphasize that software engineers participate in all levels of the product engineering process that begins with requirements engineering. The analysis step maps requirements into representations of data, function, and behavior. The design step maps the analysis model into data, architectural, interface, and software component designs. 
+
+6.5 System Modeling with UML
+
+    • In terms of the data that describe the element and the operations that manipulate the data Deployment diagrams
+        ◦ Each 3-D box depicts a hardware element that is part of the physical architecture of the system
+    • Activity diagrams
+        ◦ Represent procedural aspects of a system element
+    • Class diagrams
+        ◦ Represent system level elements 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
