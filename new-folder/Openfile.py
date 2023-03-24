@@ -1,6 +1,6 @@
-# Open files
-fhand = open('mbox.short.txt')
-count = 0
+# Searching files
+fhand = open('mbox-short.txt')
 for line in fhand:
-    count = count + 1
-print('Line Count:', count)
+    line = line.rstrip()
+    if line.startswith('From:') :
+        print(line)
